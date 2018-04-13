@@ -146,6 +146,7 @@ table { width: 100%; margin: 20px 0; }
 	letter-spacing: 0.4em;
 	margin: 0;
 	text-transform: uppercase;
+    font-family: 'Handlee', cursive;
 }
 
 .welcome span {
