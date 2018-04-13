@@ -47,12 +47,13 @@
 }
 .countdown-amount {
 	color: slategray;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Nanum Brush Script', cursive;
     font-size: 300%;
     font-weight: 900;
 }
 .countdown-period {
     display: block;
+    font-family: 'Nanum Brush Script', cursive;
 }
 .countdown-descr {
 	display: block;
