@@ -28,4 +28,6 @@ gulp.task('render', function() {
  
 gulp.task('default', function() {
     gulp.watch(['src/**/*.html'], ['render']);
+    gulp.watch(['src/styles/*.css'], ['css']);
+    gulp.watch(['src/index.html'], ['render']);
 });

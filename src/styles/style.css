@@ -9,12 +9,12 @@ h4,
 h5,
 h6,
 .btn {
-    font-family: Open Sans;
+    font-family: 'Handlee', cursive;
     font-weight: 800;
     font-style: normal;
 }
 body {
-    font-family: PT Serif;
+    font-family: 'Nothing You Could Do', cursive;
     font-weight: 400;
     font-style: normal;
 }
@@ -53,6 +53,7 @@ h6,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     background-color: #ce3052;
+    font-family: 'Indie Flower', cursive;
 }
 a:hover {
     color: #ce3052;

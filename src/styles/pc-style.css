@@ -51,7 +51,7 @@ a:hover {
 }
 
 p {
-	margin: 0 0 1em;
+	margin: 0px 2rem 1rem 2rem;
 }
 
 hr {
@@ -146,7 +146,7 @@ table { width: 100%; margin: 20px 0; }
 	letter-spacing: 0.4em;
 	margin: 0;
 	text-transform: uppercase;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Handlee', cursive;
 }
 
 .welcome span {
