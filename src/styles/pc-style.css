@@ -631,18 +631,19 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 #rsvp {
 	background: #d6516d;
 	border-radius: 8px;
-	color: #222;
+	color: #fff;
 	margin-right: -470px;
-	padding: 50px;
+	padding: 20px;
 	position: absolute;
 	right: 50%;
 	top: 40px;
-	width: 400px;
+	width: 300px;
 	z-index: 100;
+    font-family: 'Handlee', cursive;
 }
 
 #rsvp .heading {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 #rsvp .heading i {
@@ -901,11 +902,12 @@ img.pull-right,
 	#rsvp {
 		border-radius: 0;
 		margin-right: 0;
-		padding: 60px 15px;
+		padding: 30px 15px;
 		position: relative;
 		right: auto;
 		top: auto;
 		width: 100%;
+        font-family: 'Handlee', cursive;
 	}
 
 	.mobile-divider {

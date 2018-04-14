@@ -2259,6 +2259,7 @@ jQuery.noConflict();
 			var slider_height = win_height * height / 100;
 
 			$('#slider-container').height(slider_height);
+            $('#map').height(win_height - 50);
 
 		}
 
