@@ -182,6 +182,40 @@
 
 		$('.form-submit input[type="submit"]').addClass('btn btn-primary btn-lg');
 		$('.post-nav-links a').addClass('btn btn-primary');
+        
+        //=======================================================================
+        window.sr = ScrollReveal();
+        //origin -- 'bottom', 'left', 'top', 'right'
+        //duration -- // Time in milliseconds.
+        //rotate -- Starting angles in degrees, will transition from these values to 0 in all axes.
+        //opacity -- Starting opacity value, before transitioning to the computed opacity.
+        //scale -- Starting scale value, will transition from this value to 1
+        //easing -- Accepts any valid CSS easing, e.g. 'ease', 'ease-in-out', 'linear', etc.
+        //reset -- true:  reveals occur every time elements become visible
+        //reset -- false: reveals occur once as elements become visible
+        //useDelay: 'always', // 'always' — delay for all reveal animations
+        // 'once'   — delay only the first time reveals occur
+        // 'onload' - delay only for animations triggered by first load
+        // viewFactor -- Change when an element is considered in the viewport. The default value
+            // of 0.20 means 20% of an element must be visible for its reveal to occur.
 
+        var revealSetting1 = {
+            origin: 'bottom',distance: '20px',
+            duration: 500,
+            delay: 500,
+            opacity: 0,
+            scale: 0.3,
+            mobile: true,
+            reset: true,
+            useDelay: 'always',
+            viewFactor: 0.5
+        };
+        sr.reveal('.reveal-heading', {origin: 'bottom',distance: '30px',duration: 1000, delay: 100, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.3});
+        sr.reveal('.about-reveal-pooja', revealSetting1);
+        sr.reveal('.about-reveal-sarath', revealSetting1);
+        sr.reveal('.story-reveal-one', {origin: 'left',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
+        sr.reveal('.story-reveal-two', {origin: 'bottom',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
+        sr.reveal('.story-reveal-three', {origin: 'right',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
+        sr.reveal('.people-reveal', {origin: 'right',distance: '30px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
 	});
 })(jQuery);
