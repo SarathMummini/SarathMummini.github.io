@@ -198,24 +198,13 @@
         // 'onload' - delay only for animations triggered by first load
         // viewFactor -- Change when an element is considered in the viewport. The default value
             // of 0.20 means 20% of an element must be visible for its reveal to occur.
-
-        var revealSetting1 = {
-            origin: 'bottom',distance: '20px',
-            duration: 500,
-            delay: 500,
-            opacity: 0,
-            scale: 0.3,
-            mobile: true,
-            reset: true,
-            useDelay: 'always',
-            viewFactor: 0.5
-        };
-        sr.reveal('.reveal-heading', {origin: 'bottom',distance: '30px',duration: 1000, delay: 100, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.3});
-        sr.reveal('.about-reveal-pooja', revealSetting1);
-        sr.reveal('.about-reveal-sarath', revealSetting1);
+        sr.reveal('.reveal-heading', {origin: 'bottom',distance: '30px',duration: 500, delay: 100, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.3});
+        sr.reveal('.about-reveal-pooja', {origin: 'bottom',distance: '30px',duration: 300, delay: 100, opacity: 0, scale: 0.3, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.3});
+        sr.reveal('.about-reveal-sarath', {origin: 'bottom',distance: '30px',duration: 300, delay: 100, opacity: 0, scale: 0.3, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.3});
         sr.reveal('.story-reveal-one', {origin: 'left',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
         sr.reveal('.story-reveal-two', {origin: 'bottom',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
         sr.reveal('.story-reveal-three', {origin: 'right',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
-        sr.reveal('.people-reveal', {origin: 'right',distance: '30px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
+        sr.reveal('.people-reveal-right', {origin: 'right',distance: '30px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.2});
+        sr.reveal('.people-reveal-left', {origin: 'left',distance: '30px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.2});
 	});
 })(jQuery);
