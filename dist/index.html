@@ -26,8 +26,7 @@
 </style>
     
 <link rel="stylesheet" id="style-css"  href="styles/styles.css" type="text/css" media="all" />
-<!--<link rel="stylesheet" id="style-css"  href="styles/jscomposer.css" type="text/css" media="all" />-->
-<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Damion|Handlee|Indie+Flower|Nanum+Brush+Script|Nothing+You+Could+Do|Pacifico|Poiret+One|Sacramento|Satisfy|Tangerine|Varela+Round" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Handlee|Indie+Flower|Nanum+Brush+Script|Nothing+You+Could+Do|Varela+Round" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
     
 <script type="text/javascript" src="../src/js/jquery.js"></script>
@@ -37,13 +36,14 @@
     
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 </head>
-    <body data-spy="scroll" data-target=".navbar-collapse" class="home singular page page-id-5 page-parent page-template page-template-page-home page-template-page-home-php wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive">
+    <body data-spy="scroll" data-target=".navbar-collapse" class="home singular page page-parent">
 <!--
         <audio autoplay hidden>
             <source src="audio/jabtak.mp3" type="audio/mpeg">
         </audio>
 -->
         <section id="slider-container" data-date="2018-08-29T22:05:00Z">
+<!--
     <div id="slides" data-pause="5000" data-speed="2000">
         <div class="slides-container">
             <img src="images/home/8.JPG" alt="">
@@ -53,15 +53,16 @@
             <img src="images/home/7.JPG" alt="">
         </div>
     </div>
+-->
     <div class="tint">
-        <div class="welcome text-center" data-scroll-reveal="enter from the top after 1s">
+        <div class="welcome text-center home-reveal-maintext">
             <h1>Pooja & Sarath</h1>
             <p>are getting married</p>
             <p><span></span><i class="fa fa-heart"></i><span></span></p>
             <p>August 29<sup>th</sup>, 2018</p>
         </div>
     </div>
-    <div class="countdown" data-scroll-reveal="enter from the bottom after 1.5s"></div>	
+    <div class="countdown home-reveal-bottomtext"></div>	
 </section>
         <div class="navbar navbar-default no-logo">
     <div class="container">
@@ -74,26 +75,26 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul id="menu-main-nav" class="nav navbar-nav navbar-right">
-                <li id="menu-item-2144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2144">
+                <li class="menu-item">
                     <a title="About Us" href="#about-us">About Us</a>
                 </li>
-                <li id="menu-item-2143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2143">
+                <li class="menu-item">
                     <a title="Our Story" href="#our-love-story">Our Story</a>
                 </li>
-                <li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom">
+                <li class="menu-item">
                     <a title="People" href="#important-people">People</a>
                 </li>
-                <li id="menu-item-2147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2147">
+                <li class="menu-item">
                     <a title="Events" href="#events-parties">Events</a>
                 </li>
-                <li id="menu-item-2146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2146">
+                <li class="menu-item">
                     <a title="Accommodation" href="#accommodation">Accommodation</a>
                 </li>
-                <li id="menu-item-2148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2148">
+                <li class="menu-item">
                     <a title="Gallery" href="#gallery">Gallery</a>
                 </li>
-                <li id="menu-item-2149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2149">
-                    <a title="RSVP" href="http://localhost/ruby/#map">Venue</a>
+                <li class="menu-item">
+                    <a title="RSVP" href="#map">Venue</a>
                 </li>
             </ul>
         </div>
@@ -468,7 +469,7 @@
 	</div>
 </section>
 
-        <section id="gallery" class="post-27 page type-page status-publish hentry section-page">
+        <section id="gallery" class="page type-page status-publish hentry section-page">
 	<div class="container">
 		<div class="heading" data-scroll-reveal>
             <h2>Gallery</h2>
@@ -567,14 +568,15 @@
 	<div class="container text-center" data-scroll-reveal></div>
 </footer>
 
-        <script type='text/javascript' src='../src/js/bootstramp.min.js'></script>
-        <script type='text/javascript' src='../src/js/super-slides.js'></script>
+        <script type='text/javascript' src='../src/js/bootstrap.min.js'></script>
+        <script type='text/javascript' src='../src/js/easy_background.min.js'></script>
+<!--        <script type='text/javascript' src='../src/js/super-slides.js'></script>-->
         <script type='text/javascript' src='../src/js/jquery-plugin.js'></script>
         <script type='text/javascript' src='../src/js/countdown.js'></script>
         <script type='text/javascript' src='../src/js/countto.js'></script>
         <script type='text/javascript' src='../src/js/facnybox.js'></script>
-        <script type='text/javascript' src='../src/js/main.js'></script>
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script type='text/javascript' src='../src/js/main.js'></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHml2Y5srpGM1jUGJaaxVHAOexltSRZZo&callback=initMap" async defer></script>
 
     </body>

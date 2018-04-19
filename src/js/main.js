@@ -111,14 +111,19 @@
 		$(window).resize(function(){
 			sliderHeight();
 		});
+        
+        easy_background(".tint", {
+            slide: ["images/home/19.JPG", "images/home/20.JPG", "images/home/21.JPG"],
+            delay: [5000, 5000, 5000]
+        });
 
-		$('#slides').superslides({
-			play: pause,
-			animation_speed: speed,
-			animation: 'fade',
-			pagination: false,
-			inherit_height_from: $('#slider-container')
-		});
+//		$('#slides').superslides({
+//			play: pause,
+//			animation_speed: speed,
+//			animation: 'fade',
+//			pagination: false,
+//			inherit_height_from: $('#slider-container')
+//		});
 
 		function sliderHeight() {
 
@@ -130,7 +135,7 @@
 
 		}
 
-		$('.admin-bar #slider-container').css( 'margin-top', -admin_bar_height );
+		$('#slider-container').css( 'margin-top', -admin_bar_height );
 
 		// ====================================================================
 
@@ -151,7 +156,7 @@
 
 		$('body').scrollspy({
 			target: '.navbar-collapse',
-			offset: 0
+			offset: 50
 		})
 
 		$('[data-spy="scroll"]').each(function () {
@@ -201,10 +206,12 @@
         sr.reveal('.reveal-heading', {origin: 'bottom',distance: '30px',duration: 500, delay: 100, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.3});
         sr.reveal('.about-reveal-pooja', {origin: 'bottom',distance: '30px',duration: 300, delay: 100, opacity: 0, scale: 0.3, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.3});
         sr.reveal('.about-reveal-sarath', {origin: 'bottom',distance: '30px',duration: 300, delay: 100, opacity: 0, scale: 0.3, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.3});
-        sr.reveal('.story-reveal-one', {origin: 'left',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
-        sr.reveal('.story-reveal-two', {origin: 'bottom',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
-        sr.reveal('.story-reveal-three', {origin: 'right',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.5});
-        sr.reveal('.people-reveal-right', {origin: 'right',distance: '30px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.2});
-        sr.reveal('.people-reveal-left', {origin: 'left',distance: '30px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.2});
+        sr.reveal('.story-reveal-one', {origin: 'left',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: false, useDelay: 'always', viewFactor: 0.5});
+        sr.reveal('.story-reveal-two', {origin: 'bottom',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: false, useDelay: 'always', viewFactor: 0.5});
+        sr.reveal('.story-reveal-three', {origin: 'right',distance: '20px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: false, useDelay: 'always', viewFactor: 0.5});
+        sr.reveal('.people-reveal-right', {origin: 'right',distance: '30px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: false, useDelay: 'always', viewFactor: 0.2});
+        sr.reveal('.people-reveal-left', {origin: 'left',distance: '30px',duration: 500, delay: 500, opacity: 0, scale: 1, mobile: true, reset: false, useDelay: 'always', viewFactor: 0.2});
+        sr.reveal('.home-reveal-maintext', {origin: 'top',distance: '30px',duration: 500, delay: 1200, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.2});
+        sr.reveal('.home-reveal-bottomtext', {origin: 'bottom',distance: '30px',duration: 500, delay: 1500, opacity: 0, scale: 1, mobile: true, reset: true, useDelay: 'always', viewFactor: 0.2});
 	});
 })(jQuery);
