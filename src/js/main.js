@@ -113,7 +113,7 @@
 		});
         
         easy_background(".tint", {
-            slide: ["images/home/19.JPG", "images/home/20.JPG", "images/home/21.JPG"],
+            slide: ["images/home/home1.jpg", "images/home/home2.jpg", "images/home/home3.jpg", "images/home/home4.jpg", "images/home/home5.jpg", "images/home/home6.jpg"],
             delay: [5000, 5000, 5000]
         });
 
